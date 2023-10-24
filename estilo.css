@@ -150,19 +150,3 @@ small#emailHelp {
     }
 
 }
-
-@media screen and (min-height: 0px) and (max-height:660px){
-
-    .footer2{
-        position: relative;
-    }
-
-}
-
-@media screen and (min-height: 0px) and (max-height:660px){
-
-    .footer3{
-        position: relative;
-    }
-
-}
