@@ -1,0 +1,152 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #6302223a;
+}
+
+img.d-block {
+    height: 90vh;
+}
+
+.nav-fill {
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #83012c;
+    border-color: #83012c;
+}
+
+.btn-primary:hover{
+    background-color: #58021db2;
+    border-color: #58021db2;
+}
+
+img.card-img-top{
+    height: 250px;
+}
+
+.card{
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: -4px 4px 20px 1px black;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav-pills .nav-link{
+    height: 60px;
+    border-radius: 0%;
+}
+
+.nav-fill .nav-item{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.nav-link{
+    display: flex;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #5e001f;
+}
+
+a {
+    color: #5e001f;
+}
+
+footer{
+    background-color: #5e001f;
+    box-shadow: -4px 6px 20px 1px black;
+    
+}
+
+.footer2{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer3{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.text-muted {
+    color: #ffffff!important;
+}
+
+.text-muted:hover{
+    text-decoration: underline;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+footer .container a{
+     position: absolute;
+     margin-left: 90%;
+     margin-right: 10%;
+}
+
+p{
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: justify;
+    text-indent: 20px
+}
+
+h1{
+    margin-top: 2px;
+    margin-left: 8%;
+    margin-bottom: 40px;
+}
+
+form {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+textarea{
+    resize: none;
+}
+
+small#emailHelp {
+    color: #6c757d!important;
+}
+
+@media screen and (min-width: 300px) and (max-width:767px){
+
+    img.d-block {
+        height: 250px;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width:1000px){
+
+    .footer2{
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width:640px){
+
+    .footer3{
+        position: relative;
+    }
+
+}
